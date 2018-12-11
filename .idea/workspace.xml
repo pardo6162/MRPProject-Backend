@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1436f720-0ca3-47d8-9ea6-e3d6e2dcfc02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/axios_module.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/axios_module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/materialsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MRPImplementation-Frontend/views/js/materialsView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,6 +58,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1564304798">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -73,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="92" column="20" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="20" />
+            <state relative-caret-position="26">
+              <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="306">
               <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
             </state>
           </provider>
@@ -127,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="16" column="13" selection-start-line="16" selection-end-line="17" />
+            <state relative-caret-position="106">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -152,12 +170,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../IX_Semestre/COSW/Proyecto/quicklyshop_backend" value="PREVIEW" />
+        <entry key="$USER_HOME$/IX_Semestre/COSW/Proyecto/quicklyshop_backend" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -176,10 +194,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MachineController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/ActivityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/SupplierController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Activity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java" />
       </list>
     </option>
   </component>
@@ -202,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,6 +339,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +400,7 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27887538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28343466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,6 +535,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/service/persistence/SupplierRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -524,10 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="26">
+          <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -536,22 +561,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="13" selection-start-line="16" selection-end-line="17" />
+        <state relative-caret-position="106">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Material.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/model/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/mrpImplementation/controller/MaterialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

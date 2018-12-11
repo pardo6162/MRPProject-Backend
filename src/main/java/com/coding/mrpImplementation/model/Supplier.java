@@ -17,6 +17,7 @@ public class Supplier {
     private String address;
     private int deliveryTime;
     private int phone;
+    
     @OneToMany(cascade= {CascadeType.MERGE,CascadeType.REMOVE })
     @JoinTable(name = "SuppliersOfMaterial",
             joinColumns = { @JoinColumn(name = "supplier_id",referencedColumnName = "id") },

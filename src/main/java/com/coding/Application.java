@@ -12,8 +12,6 @@ import java.util.HashMap;
 
 @SpringBootApplication
 public class Application {
-    @Autowired
-    private  ActivityRepository activityRepository;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

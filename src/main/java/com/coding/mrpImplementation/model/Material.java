@@ -1,6 +1,9 @@
 package com.coding.mrpImplementation.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -21,7 +24,7 @@ public class Material {
     private List<Activity> activities;
 
     @JsonIgnore
-    @ManyToMany(mappedBy = "materials")
+    @ManyToMany(cascade = {CascadeType.ALL},mappedBy = "materials")
     private List<Supplier> suppliers;
 
     public  Material(){}

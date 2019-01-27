@@ -2,6 +2,8 @@ package com.coding.mrpImplementation.model;
 
 
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import java.util.List;
@@ -18,7 +20,7 @@ public class Supplier {
     private int deliveryTime;
     private int phone;
 
-    @OneToMany(cascade= {CascadeType.MERGE,CascadeType.REMOVE })
+    @OneToMany( cascade = {CascadeType.ALL})
     @JoinTable(name = "SuppliersOfMaterial",
             joinColumns = { @JoinColumn(name = "supplier_id",referencedColumnName = "id") },
             inverseJoinColumns = { @JoinColumn(name = "material_id",referencedColumnName = "id") })

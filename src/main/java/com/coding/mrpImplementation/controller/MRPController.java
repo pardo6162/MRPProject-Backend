@@ -26,5 +26,8 @@ public abstract class MRPController {
     @Autowired
     protected SupplierRepository supplierRepository;
 
+    @Autowired
+    protected MachineTaskRepository machineTaskRepository;
+
 
 }
